@@ -62,3 +62,4 @@ solution.nextPermutation([1,5,5])
 solution.nextPermutation([1,5,1])
 # 你看看，又是边界，题目都给了提示了还不处理，蠢猪
 solution.nextPermutation([3,2,1])
+solution.nextPermutation([1,9,8,7,6,5,4,3])
