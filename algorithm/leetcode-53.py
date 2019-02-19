@@ -4,7 +4,7 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
-        largest_num = nums[i]
+        largest_num = max(0, nums[0])
         cur_sum = 0
         for i in range(len(nums)):
             cur_sum = cur_sum + nums[i]
@@ -44,3 +44,4 @@ class Solution:
 solution = Solution()
 print(solution.maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
 print(solution.maxSubArray([-1,0,-2]))
+print(solution.maxSubArray([-1]))
